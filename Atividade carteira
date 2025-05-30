@@ -1,0 +1,10 @@
+nome = str(input("Digite seu nome: "))
+
+idade = int(input("Digite sua idade: "))
+
+carteira = input("Voçê tem carteira de motorista? (sim/não): ")
+
+if idade >= 18 and carteira.lower() == "sim":
+    print(f"{nome}, voçê pode dirigir")
+else:
+    print(f"{nome}, voçê não pode dirigir")
