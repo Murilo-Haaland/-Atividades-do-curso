@@ -1,0 +1,8 @@
+usuario = str(input("Digite o usuario: "))
+
+senha = str(input("Digite a senha: "))
+
+if usuario == "Murilo" and senha == "0910":
+    print("Login aprovado")
+else:
+    print("usuario ou senha incorretos.")
