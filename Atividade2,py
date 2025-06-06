@@ -1,0 +1,10 @@
+palavra = input("Digite uma palavra: ")
+lista= ["a","e" ,"i","o","u"]
+cont = 0
+
+for vogal in palavra:
+    if vogal in lista:
+        cont += 1
+        print(f"a vogal é {vogal}")
+        
+print(cont)
