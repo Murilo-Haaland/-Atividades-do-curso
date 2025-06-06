@@ -1,0 +1,8 @@
+lista = [1,2,3,4,5]
+print(lista)
+soma=0
+for number in lista:
+   soma=soma+number
+   print(soma)
+    
+    
